@@ -1,0 +1,333 @@
+@charset "UTF-8";
+nav{
+    display: none;
+}
+a#burguinho{
+    display: block;
+    margin-right: 20px;
+}
+a#burguinho > img{
+    width: 45%;
+}
+section#presentation{
+    width: 100vw;
+}
+section#presentation > img{
+    width: 65vw;
+    height: 17vh;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#presentation > h1{
+    font-size: 2em;
+    padding: 0px 15px 0px 20px;
+    margin-top: -350px;
+    margin-left: 40px;
+    font-size: 1.95em;
+    max-width: 300px;
+    
+}
+
+.diver{
+    display: block;
+    width: 50.6vw;
+    margin-top: 20px;
+    margin: auto;
+}
+.diver > img{
+    display: block;
+    width:  120px;
+    height: 120px;
+    margin: 0px 20px  20px 0px;
+}
+.diver  p{
+    display: block;
+    width: 60vw;
+    margin-left: -25px;
+}
+#diveren{
+    margin: auto;
+}
+#divere{
+    margin: auto; 
+}
+#pararsett{
+    transform: translate(6vw, -2.5vh);
+}
+.p{
+    display: block;
+    padding: 20px;
+    margin: 10vw 5vw 10vw 10vw;
+    transform: translateX(6vw);
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+    width: 100vw;
+    text-align: justify;
+}
+#imagesett{
+    display: block;
+    border-radius: 5%;
+    transform: translate(2.5vw, -2.5vh);
+    width: 300px;
+}
+article p{
+    width: 50vw;
+}
+article img{
+    width: 50px;
+    height: 55px;
+}
+.trans h1{
+    font-size: 2em;
+    width: 85vw;
+}
+.trans p{
+    max-width: 75vw;
+}
+.trans img{
+    margin-top: 25px;
+    width: 80vw;
+    height: 80vw;
+    
+}
+.process{
+    display: block;
+    width: 90vw;
+    margin: auto;
+    border-bottom: 5px solid #373f47;
+    border-right: 0px solid #373f47;
+    padding: 40px -2px;
+}
+#entrega{
+    border-right: 0px solid #373f47;
+}
+.title{
+    font-size: 2.40em;
+}
+h2{
+    font-size: 0.8em;
+}
+.process p{
+    width: 70vw;
+    margin: auto;
+}
+.process img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.process h2{
+    font-size: 0.8em;
+}
+#img{
+    width: 75vw;
+    height: 40vh;
+    margin-left: 35px;
+}
+#transit{
+    display: inline-flex;
+    height: 30vh;
+    padding: 20px 0px 0px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    animation-name: slideer;
+    animation-duration: 3.5s;
+    border-left: none;
+    border-bottom: 5px solid #D7D8D9;
+}
+#transit p{
+    margin-left: 25px;
+    max-width: 250px;
+    text-align: justify;
+}
+#imgg{
+    position: relative;
+    border-radius: 50%;
+    top: 800px;
+    width: 75vw;
+    height: 45vh;
+}
+.trans{
+    display: inline-flex;
+    height: 90vh;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: none;
+    flex-wrap: wrap;
+
+}
+#transit .title{
+    margin-left: 15px;
+    font-size: 1.25em;
+}
+#imgg{
+    margin-top: -10px;
+    margin-left: 35px;
+}
+#button{
+    margin-left: 5px;
+    width: 310px;
+    margin-bottom: 30px;
+}
+.title::before{
+    content: '—';
+    color: var(--cor05);
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+.title{
+    margin-left: 17.5px;
+}
+#glass{
+    margin-left: 25px;
+}
+.port{
+    padding-top: 600px;
+    
+}
+#portifolio{
+    padding-left: -100px;
+}
+#center{
+    margin-left: 25vw;
+}
+.Sp{
+   
+}
+.Sp img{
+    width: 100px;
+    height: 100px;
+}
+#Inscrever{
+    width: 90vw;
+}
+.CBUM{
+    padding: 15px 30vw;
+    margin-left: 5vw;
+    width: 95vw;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.CBUM:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
+}
+#diver{
+    padding-top: 125px;
+    padding-left: 25px;
+}
+.img4{
+    display: none;
+}
+.img{
+   display: none;
+}
+#transer{
+    display: inline-flex;
+    height: 90vh;
+    padding: 200px 10px 10px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: none;
+    flex-wrap: wrap;
+}
+.login{
+    display: block;
+    margin-top: 70px;
+    margin-left: -15px;
+    width: 90vw;
+    padding: 55px 15px 50px 75px;
+    height: 100vh;
+}
+.login input{
+    width: 70vw;
+}
+#vid{
+    margin-top: 100px;
+    margin-left: -5vw;
+    width: 89vw;
+}
+.transt{
+    display: block;
+    border-left: 5px solid var(--cor01);
+}
+.eye{
+    left: 29vw;
+}
+#button{
+    margin-left:auto;
+    width: 84vw;
+}
+#buttton{
+    margin-left: 25px;
+    width: 300px;
+}
+#transiterser img, #transiter img, #bronze img, #prata img, #gold img, #platine img, #diamond img{
+    width: 0px;
+    height: 0px;
+}
+#transiterser p, #transiter p, #bronze p, #prata p, #gold p, #platine p, #diamond p{
+    width: 275px;
+}
+#transiterser h1, #transiter h1, #bronze h1, #prata h1, #gold h1, #platine h1, #diamond h1{
+    margin-left: 0px;
+}
+.prox{
+    margin-left: 30px;
+    width: 300px;
+}
+.proxi{
+    margin-left: 15px;
+    width: 300px;
+}
+div p{
+    margin-left: 10vw;
+}
+.CHUTED{
+    margin-left: 7vw;
+    width: 300px;
+    padding: 15px 135px;
+}
+.DOKWON{
+    margin-left: 35px;
+    width: 300px;
+    padding: 15px 100px;
+}
+#sections{
+    display: flex;
+    height: 50vh;
+}
+.project{
+    display: none;
+}
+.CHUTEDOKWON{
+    margin-left: 9vw;
+    padding: 15px 27vw;
+}
+footer{
+    display: none;
+}
+#voltar{
+    padding:15px 140px;
+}
+#transiter{
+   padding: 0px;
+}
+#transiter h1{
+    width: 90vw;
+    margin-left: 5vw;
+}
+/*Rivaldo Jesus, Aberta Demais de Oliveira, Mega Bombadora, GrandePorcoVirovisch
