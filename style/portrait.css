@@ -171,9 +171,9 @@ h2{
     margin-left: 35px;
 }
 #button{
-    margin-left: 5px;
-    width: 310px;
     margin-bottom: 30px;
+    width: 85vw;
+    margin-left: 0px;
 }
 .title::before{
     content: '—';
@@ -209,9 +209,8 @@ h2{
 }
 .CBUM{
     padding: 15px 30vw;
-    margin-left: 5vw;
-    width: 95vw;
     border-radius: 25px;
+    margin-left: 4vw;
     background-color: var(--cor05);
     text-decoration: none;
     color: var(--cor01);
@@ -267,10 +266,7 @@ h2{
 .eye{
     left: 29vw;
 }
-#button{
-    margin-left:auto;
-    width: 84vw;
-}
+
 #buttton{
     margin-left: 25px;
     width: 300px;
@@ -280,7 +276,7 @@ h2{
     height: 0px;
 }
 #transiterser p, #transiter p, #bronze p, #prata p, #gold p, #platine p, #diamond p{
-    width: 275px;
+    width: 95vw;
 }
 #transiterser h1, #transiter h1, #bronze h1, #prata h1, #gold h1, #platine h1, #diamond h1{
     margin-left: 0px;
@@ -297,13 +293,14 @@ div p{
     margin-left: 10vw;
 }
 .CHUTED{
+   
+    width: 100vw;
     margin-left: 7vw;
-    width: 300px;
-    padding: 15px 135px;
+    padding: 15px 35vw;
 }
 .DOKWON{
-    margin-left: 35px;
-    width: 300px;
+   
+    width: 100vw;
     padding: 15px 100px;
 }
 #sections{
