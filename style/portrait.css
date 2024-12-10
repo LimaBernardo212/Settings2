@@ -123,7 +123,7 @@ h2{
 }
 #img{
     width: 75vw;
-    height: 40vh;
+    height: 75vw;
     margin-left: 35px;
 }
 #transit{
@@ -173,7 +173,7 @@ h2{
 #button{
     margin-bottom: 30px;
     width: 85vw;
-    margin-left: 2vw;
+    margin-left: 0vw;
 }
 .title::before{
     content: '—';
