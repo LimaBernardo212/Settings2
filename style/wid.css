@@ -36,3 +36,6 @@ a#burguinho > img{
 #imgg{
     margin-top: -10px;
 }
+#img{
+    display: none;
+}
