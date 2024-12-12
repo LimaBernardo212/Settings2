@@ -7,7 +7,10 @@ a#burguinho{
 a#burguinho > img{
     width: 45%;
 }
-
+#presentation > img{
+    width: 75vw;
+    height: 100vh;
+}
 #imagesett{
     display: block;
     border-radius: 5%;
@@ -35,7 +38,4 @@ a#burguinho > img{
 }
 #imgg{
     margin-top: -10px;
-}
-#img{
-    display: none;
 }

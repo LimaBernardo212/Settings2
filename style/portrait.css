@@ -13,8 +13,8 @@ section#presentation{
     width: 100vw;
 }
 section#presentation > img{
-    width: 65vw;
-    height: 20vh;
+    width: 60vw;
+    height: 30vw;
     margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin-top: -300px;
+    margin-top: -500px;
     margin-left: 7vw;
     font-size: 1.95em;
     max-width: 500px;
@@ -146,9 +146,9 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 700px;
-    width: 75vw;
-    height: 75vw;
+    top: 900px;
+    width: 55vw;
+    height: 55vw;
 }
 .trans{
     display: inline-flex;
@@ -207,10 +207,10 @@ h2{
     width: 90vw;
 }
 .CBUM{
-    padding: 15px 30vw;
+    padding: 15px 27.1vw;
     max-width: 75vw;
     border-radius: 25px;
-    margin-left: 6vw;
+    margin-left: 9vw;
     background-color: var(--cor05);
     text-decoration: none;
     color: var(--cor01);
