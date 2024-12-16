@@ -22,7 +22,7 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin-top: -500px;
+    margin-top: -400px;
     margin-left: 7vw;
     font-size: 1.95em;
     max-width: 500px;
@@ -124,7 +124,7 @@ h2{
 #img{
     width: 75vw;
     height: 75vw;
-    margin-left: 35px;
+    margin-left: 10vw;
 }
 #transit{
     display: inline-flex;
@@ -146,9 +146,10 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 900px;
-    width: 55vw;
-    height: 55vw;
+    top: 950px;
+    width: 50vw;
+    height: 50vw;
+    margin-left: 20vw;
 }
 .trans{
     display: inline-flex;
@@ -174,8 +175,8 @@ h2{
 }
 #button{
     margin-bottom: 30px;
-    width: 85vw;
-    margin-left: 2vw;
+    width: 74vw;
+    margin-left: 9vw;
 }
 .title::before{
     content: '—';
@@ -207,8 +208,8 @@ h2{
     width: 90vw;
 }
 .CBUM{
-    padding: 15px 27.1vw;
-    max-width: 75vw;
+    padding: 15px 28vw;
+    max-width: 90vw;
     border-radius: 25px;
     margin-left: 9vw;
     background-color: var(--cor05);
@@ -256,7 +257,7 @@ h2{
 }
 #vid{
     margin-top: 100px;
-    margin-left: -5vw;
+    margin-left: -1vw;
     width: 89vw;
 }
 .transt{
@@ -286,8 +287,8 @@ h2{
     width: 300px;
 }
 .proxi{
-    margin-left: 15px;
-    width: 300px;
+    margin-left: 5vw;
+    width: 85vw;
 }
 div p{
     margin-left: 10vw;
