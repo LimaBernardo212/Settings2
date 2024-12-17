@@ -169,13 +169,13 @@ h2{
 }
 #imgg{
     margin-top: -55px;
-    margin-left: 35px;
+    margin-left: 10vw;
     width: 75vw;
     height: 75vw;
 }
 #button{
     margin-bottom: 30px;
-    width: 74vw;
+    width: 73vw;
     margin-left: 9vw;
 }
 .title::before{
@@ -208,7 +208,7 @@ h2{
     width: 90vw;
 }
 .CBUM{
-    padding: 15px 28vw;
+    padding: 15px 27.5vw;
     max-width: 90vw;
     border-radius: 25px;
     margin-left: 9vw;
