@@ -577,23 +577,22 @@ header#acount > nav{
 }
 .parceiros{
     display: block;
-    border-bottom: 3px solid var(--cor05);
-    border-left: 3px solid var(--cor05);
-    border-right: 3px solid var(--cor05);
+    background-color: var(--cor06);
+    border-radius: 10px;
     margin-top: 10px;
     width: 1000px;
-    padding: 7px;
+    padding: 15px;
     margin-left: 140px;
 }
 .parceiros:hover{
-    border-color: var(--cor03);
+    background-color: var(--cor02);
+    margin-bottom: 25px;
 }
 #lies{
     margin-top: 115px;
 }
 #parceiros1{
-   border-top: 3px solid var(--cor05);
-   padding: 7px;
+   padding: 15px;
 }
 #parceiros1:hover{
     border-color: var(--cor03);
