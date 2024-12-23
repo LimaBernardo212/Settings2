@@ -149,10 +149,10 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 83vh;
-    width: 75vw;
-    height: 75vw;
-    margin: 5vw auto;
+    top: 85vh;
+    width: 65vw;
+    height: 65vw;
+    margin:0vw 12vw;
 }
 .trans{
     display: inline-flex;
