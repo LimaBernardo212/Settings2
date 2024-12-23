@@ -78,6 +78,9 @@ article img{
     width: 50px;
     height: 55px;
 }
+.trans{
+    height: 50vw;
+}
 .trans h1{
     font-size: 2em;
     width: 85vw;
@@ -146,10 +149,10 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 950px;
-    width: 50vw;
-    height: 50vw;
-    margin-left: 20vw;
+    top: 83vh;
+    width: 75vw;
+    height: 75vw;
+    margin: 5vw auto;
 }
 .trans{
     display: inline-flex;
@@ -167,12 +170,7 @@ h2{
     margin-left: 15px;
     font-size: 1.25em;
 }
-#imgg{
-    margin-top: -55px;
-    margin-left: 10vw;
-    width: 75vw;
-    height: 75vw;
-}
+
 #button{
     margin-bottom: 30px;
     width: 73vw;
