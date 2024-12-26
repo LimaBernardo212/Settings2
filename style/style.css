@@ -579,16 +579,18 @@ header#acount > nav{
     display: block;
     background-color: var(--cor06);
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 2vh;
     width: 1000px;
     padding: 15px;
-    margin-left: 140px;
+    margin-bottom: 2vh;
+    margin-left: 12vw;
 }
 .parceiros:hover{
     background-color: var(--cor02);
-    margin-bottom: 25px;
+    margin-top: 3.5vh;
 }
-#lies{
+
+#lies .SELECT .checkbox:checked {
     margin-top: 115px;
 }
 #parceiros1{
@@ -598,42 +600,62 @@ header#acount > nav{
     border-color: var(--cor03);
 }
 #p01{
+    display: block;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    margin-left: 10vw;
     color: var(--cor05);
     font-size: 1em;
-    padding: 0px;
-    margin-bottom: 3px;
-    margin-top: 3px;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top:7px;
 }
 #p02:hover{
     border-color: var(--cor03);
 }
 #p02{
+    display: block;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    margin-left: 10vw;
     color: var(--cor05);
     font-size: 1em;
-    padding: 0px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top:7px;
 }
 #p03{
+    display: block;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    margin-left: 10vw;
     color: var(--cor05);
     font-size: 1em;
-    padding: 0px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top:7px;
 }
 #p04{
+    display: block;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    margin-left: 10vw;
     color: var(--cor05);
     font-size: 1em;
-    padding: 0px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top:7px;
 }
 #p05{
+    display: block;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    margin-left: 10vw;
     color: var(--cor05);
     font-size: 1em;
-    padding: 0px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top:7px;
 }
 .parca{
     text-decoration: none;
@@ -1229,4 +1251,29 @@ thead{
 }
 #informa{
     display: none;
+}
+.SELECT{
+    display: none;
+    padding: 15px;
+    padding-left: 225px;
+    padding-right: 225px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    margin-top: 1vw;
+    margin-left: 30vw;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.SELECT:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
+}
+.checkbox{
+    display: none;
+}
+input.checkbox:checked ~ .SELECT{
+  display: inline-flex;  
 }
