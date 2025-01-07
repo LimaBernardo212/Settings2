@@ -1163,17 +1163,21 @@ background-color: var(--cor04);
     margin-bottom: 50px;
 }
 .parceir{
-        display: none;
-        border-bottom: 3px solid var(--cor05);
-        border-left: 3px solid var(--cor05);
-        border-right: 3px solid var(--cor05);
-        margin-top: 10px;
+        display: block;
+        background-color: var(--cor06);
+        border-radius: 10px;
+        margin-top: 2vh;
         width: 1000px;
-        padding: 7px;
-        margin-left: 140px;
+        padding: 15px;
+        margin-bottom: 2vh;
+        margin-left: 12vw;
+    
+   
+        
 }
 .parceir:hover{
-    border-color: var(--cor03);
+    background-color: var(--cor02);
+    margin-top: 3.5vh;
 }
 footer{
     background-color: var(--cor08);
