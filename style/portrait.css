@@ -248,7 +248,7 @@ h2{
     margin-left: -15px;
     width: 90vw;
     padding: 55px 15px 50px 75px;
-    height: 100vh;
+    height: 50vh;
 }
 .login input{
     width: 70vw;
@@ -330,5 +330,15 @@ footer{
     display: block;
     margin-left: -1vw;
     width: 69vw;
+}
+.acountconditionals{
+    display: block;
+    padding: 5px;
+    margin-top: 15vw;
+    margin-bottom: -10vw;
+    text-align: left;
+}
+.cll{
+    display: none;
 }
 /*Rivaldo Jesus, Aberta Demais de Oliveira, Mega Bombadora, GrandePorcoVirovisch

@@ -26,14 +26,16 @@
     <main>
         <section class="transt">
             <div id="vid">
-                <h2>Inscreva-se ou Faça seu Login</h2>
+                <h2>Faça seu Login ou se Inscreva</h2>
                 <h1 class="title">
-                    Faça seu Login, ou Inscreva-se
+                    Faça seu Login, ou se Inscreva
                 </h1>
+                <p class="cll">Caso não tenha uma conta clique no link abaixo.</p>
+                <p><a href="loginnovacontacliente.html" class="acountconditionals">Não tenho uma conta</a></p>
             </div>
         
         <div class="login" id="loginc">
-           <form action="newaccount.html" method="get" autocomplete="on">
+           <form action="entreEmContato.html" method="get" autocomplete="on">
            
             <div>
                 <label for="name">Nome:</label>
@@ -45,36 +47,16 @@
                 <input type="email" name="useremail" id="useremail" required maxlength="100" size="50" placeholder="Email">
             </div>
             <div>
-                <legend>Sexo</legend>
-                <label for="max">Masculino</label>
-                <input type="radio" name="sex" id="fen" value="M">
-                <label for="fen">Feminino</label>
-                <input type="radio" name="sex" id="fen" value="F">
-                
-            </div>
-            <div>
-                <label for="number">
-                    Número de telefone
-                </label>
-                <input type="tel" name="numeber" id="number" required maxlength="16"  placeholder="Número de Telefone">
-            </div>
-            <div>
                 <label for="pin">
                     Senha:
                 </label>
                 <div class="eye" id="eyere"><img src="images/olho.png" alt="" class="eye" id="Everelson"></div>
                 <input type="password" name="pin" id="pinc"required maxlength="20" minlength="8" size="50" placeholder="Senha">
+                <label for="" id="Error"></label>
             </div>
+
             <div>
-                <label for="sobpin">
-                    Digite a senha novamente:
-                </label>
-                <div class="eye" id="eyereas"><img src="images/olho.png" alt="" class="eye" id="Evereia"></div>
-                <input type="password" name="sobpin" id="sobpinc" required maxlength="20"
-                minlength="8" size="50" placeholder="Digite sua senha novamente">
-            </div>
-            <div>
-                <a href="newaccount.html"><input type="submit" id="submit" value="Increver-se"></a>
+                <a href="entreEmContato.html"><input type="submit" id="submit" value="Increver-se"></a>
             </div>
            </form>
            

@@ -175,7 +175,7 @@ article img{
     align-items: center;
     animation-name: slide;
     animation-duration: 3.5s;
-    border-left: 5px solid #D7D8D9;
+    
 }
 @keyframes slide{
     from {
@@ -422,14 +422,13 @@ footer{
     padding: 50px;
 }
 .login{
-    margin-left: 155px;
-    margin-top: 45vh;
-    
+    margin-top: 15vh;
+    margin-left:3vw;
     padding: 55px 150px
-    85px 200px;
+    85px 150px;
     background-color: var(--cor05);
     width: 600px;
-    height: 105vh;
+    height: 55vh;
     animation-name: slideLogin;
     animation-duration: 3.5s;
 }
@@ -485,18 +484,17 @@ input{
 }
 .transt{
     display: inline-flex;
-    height: 80vh;
-    margin-top: 5px;
+    height: 10vh;
+    margin-top: 15vw;
     padding: 10px;
     flex-wrap: nowrap;
     align-items: center;
     animation-name: slide;
     animation-duration: 3.5s;
-    border-left: 5px solid #D7D8D9;
 }
 #vid{
-    margin-top: -150px;
-    margin-right: -50px;
+    
+    margin-right: -1vw;
 }
 header#acount{
     position: sticky;
@@ -1280,4 +1278,22 @@ thead{
 }
 input.checkbox:checked ~ .SELECT{
   display: inline-flex;  
+}
+.acountconditionals{
+    text-decoration: none;
+    color: var(--cor05);
+    font-weight: bold;
+}
+.acountconditionals:hover{
+    text-decoration: underline;
+    color: var(--cor04);
+}
+.transt p{
+    width: 30vw;    
+}
+#Error{
+    color: red;
+    padding: 5px;
+    font-size: 0.7em;
+    
 }
