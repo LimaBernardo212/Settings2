@@ -1,0 +1,20 @@
+{
+  "name": "settings",
+  "version": "1.0.0",
+  "description": "Um Projeto de Empresa, baseada em programção de sites com parceiros. Com uma estrutura baseada em uma moeda imaginaria a Gear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongodb": "3.7",
+    "mongoose": "^8.9.3"
+  }
+}

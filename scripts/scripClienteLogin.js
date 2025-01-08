@@ -6,29 +6,37 @@ var everImageTrocar = "images/olho.png";
 var everImage = "images/olho (1).png";
 var everImageTrocar1 = "images/olho.png";
 var everImage1 = "images/olho (1).png";
-document.getElementById('loginc').addEventListener('submit', function(event) {
+
+document.getElementById('registerForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const username = document.getElementById('name').value;
-    const password = document.getElementById('pinc').value;
-    const errorMessage = document.getElementById('Error');
-    // Usuário e senha de exemplo
-    const validUsername = 'Bernardo Lima';
-    const validPassword = '12345678';
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const errorMessage = document.getElementById('errorMessage');
 
-    if (username === validUsername && password === validPassword) {
-        window.alert('Seja bem-vindo, ' + username + '!')
-        window.location.href = 'entreEmContato.html';
-       
-        // Redirecionar para outra página ou realizar outra ação
-    } else {
-        errorMessage.textContent = 'Usuário ou senha incorretos.';
-    }
+    fetch('/register', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, email, password })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Cadastro bem-sucedido!');
+            // Redirecionar para outra página ou realizar outra ação
+        } else {
+            errorMessage.textContent = data.message;
+        }
+    })
+    .catch(error => {
+        errorMessage.textContent = 'Ocorreu um erro. Tente novamente mais tarde.';
+    });
 });
+
 eyere.addEventListener("click", function (){
     pinc.type = pinc.type === "password" ? "text" : "password";
-    document.getElementById("Everelson").src = everImage;
-    let aux = everImageTrocar
-    everImageTrocar = everImage
-    everImage = aux
-})
+    document.getElementById("Everelson").src = pinc.type === "password" ? everImageTrocar : everImage;
+});
